@@ -15,7 +15,7 @@ function loadImages () {
   $.each(toppings, function (key, val) {
     var img = new Image();
     img.setAttribute('crossOrigin', 'anonymous');
-    img.src = '/assets/toppings/' + val.image;
+    img.src = '//pizza-luvrs-kelwin-gamez.s3-us-west-2.amazonaws.com/toppings/' + val.image;
     val.img = img;
   });
 }
